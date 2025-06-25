@@ -1,0 +1,13 @@
+# Node
+node_modules/
+dist/
+.env
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
