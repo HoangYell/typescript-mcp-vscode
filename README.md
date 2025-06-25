@@ -33,8 +33,8 @@ Add to your [settings.json](vscode://settings/chat.mcp.discovery.enabled):
     "servers": {
       "SimpleMCP": {
         "type": "node",
-        "command": "node_modules/.bin/ts-node", // or node dist/server.js
-        "args": ["src/server.ts"], // or dist/server.js
+        "command": "node_modules/.bin/ts-node", // or your preferred ts-node path
+        "args": ["src/server.ts"], // or your preferred server entry point
         "cwd": "."
       }
     }
